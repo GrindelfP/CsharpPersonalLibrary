@@ -1,0 +1,12 @@
+/home/gregory/programming/C#Projects/CsPersonalLibraries/ConsoleMethods/bin/Debug/net6.0/ConsoleMethods.deps.json
+/home/gregory/programming/C#Projects/CsPersonalLibraries/ConsoleMethods/bin/Debug/net6.0/ConsoleMethods.dll
+/home/gregory/programming/C#Projects/CsPersonalLibraries/ConsoleMethods/bin/Debug/net6.0/ref/ConsoleMethods.dll
+/home/gregory/programming/C#Projects/CsPersonalLibraries/ConsoleMethods/bin/Debug/net6.0/ConsoleMethods.pdb
+/home/gregory/programming/C#Projects/CsPersonalLibraries/ConsoleMethods/obj/Debug/net6.0/ConsoleMethods.csproj.AssemblyReference.cache
+/home/gregory/programming/C#Projects/CsPersonalLibraries/ConsoleMethods/obj/Debug/net6.0/ConsoleMethods.GeneratedMSBuildEditorConfig.editorconfig
+/home/gregory/programming/C#Projects/CsPersonalLibraries/ConsoleMethods/obj/Debug/net6.0/ConsoleMethods.AssemblyInfoInputs.cache
+/home/gregory/programming/C#Projects/CsPersonalLibraries/ConsoleMethods/obj/Debug/net6.0/ConsoleMethods.AssemblyInfo.cs
+/home/gregory/programming/C#Projects/CsPersonalLibraries/ConsoleMethods/obj/Debug/net6.0/ConsoleMethods.csproj.CoreCompileInputs.cache
+/home/gregory/programming/C#Projects/CsPersonalLibraries/ConsoleMethods/obj/Debug/net6.0/ConsoleMethods.dll
+/home/gregory/programming/C#Projects/CsPersonalLibraries/ConsoleMethods/obj/Debug/net6.0/ref/ConsoleMethods.dll
+/home/gregory/programming/C#Projects/CsPersonalLibraries/ConsoleMethods/obj/Debug/net6.0/ConsoleMethods.pdb
