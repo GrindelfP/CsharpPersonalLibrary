@@ -11,6 +11,7 @@ public static class ConsoleInput
         if (input == null) return "";
         else return input;
     }
+
     public static int IntInput()
     {
         while (true)
@@ -26,6 +27,7 @@ public static class ConsoleInput
             }
         }
     }
+
     public static long LongInput()
     {
         while (true)
@@ -41,6 +43,7 @@ public static class ConsoleInput
             }
         }
     }
+
     public static double DoubleInput()
     {
         while (true)
@@ -56,6 +59,7 @@ public static class ConsoleInput
             }
         }
     }
+
     public static bool BooleanInput()
     {
         while (true)
@@ -71,30 +75,38 @@ public static class ConsoleInput
             }
         }
     }
-    public static Array ArrayInput(string arrayType)
+
+    private static int GetArrayLength()
     {
         Print("Print the length of your array: ");
         var arrayLength = IntInput();
+        return arrayLength;
+    }
+
+    public static double[] ArrayNumInput()
+    {
+        var arrayLength = GetArrayLength();
+        var array = new double[arrayLength];
         PrintLn("Enter numbers of your array in the following lines:");
-        var array = new object[arrayLength];
-        switch (arrayType)
-        {
-            case "string":
-            {
-                for (var i = 0; i < arrayLength; i++) array[i] = StrInput();
-                break;
-            }
-            case "number":
-            {
-                for (var i = 0; i < arrayLength; i++) array[i] = DoubleInput();
-                break;
-            }
-            default:
-            {
-                for (var i = 0; i < arrayLength; i++) array[i] = BooleanInput();
-                break;
-            }
-        }
+        for (var i = 0; i < arrayLength; i++) array[i] = DoubleInput();
+        return array;
+    }
+
+    public static string[] ArrayStrInput()
+    {
+        var arrayLength = GetArrayLength();
+        var array = new string[arrayLength];
+        PrintLn("Enter numbers of your array in the following lines:");
+        for (var i = 0; i < arrayLength; i++) array[i] = StrInput();
+        return array;
+    }
+
+    public static bool[] ArrayBoolInput()
+    {
+        var arrayLength = GetArrayLength();
+        var array = new bool[arrayLength];
+        PrintLn("Enter numbers of your array in the following lines:");
+        for (var i = 0; i < arrayLength; i++) array[i] = BooleanInput();
         return array;
     }
 }
